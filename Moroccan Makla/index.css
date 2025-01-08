@@ -13,7 +13,7 @@
 body{
     font-family: 'Arial', sans-serif;
     line-height: 1.5;
-    background: url("https://images.unsplash.com/photo-1533158388470-9a56699990c6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHxiYWNrZ3JvdW5kJTIwaW1hZ2UlMjByZXN0YXVyYW50fGVufDB8fDB8fHww") center/cover;
+    background: url('https://images.unsplash.com/photo-1517574012247-6941b83050d5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1vcm9jY28lMjBibHVycnklMjBwaWN0dXJlc3xlbnwwfHwwfHx8MA%3D%3D' ) no-repeat center center/cover;
     color: #000;
     background-repeat: no-repeat;
     margin: 0;
@@ -109,7 +109,7 @@ nav ul li a.active::after {
 /* pictures */
 .content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
     margin-top: 50px;
     align-items: center;
     justify-content: space-between;
@@ -122,12 +122,12 @@ nav ul li a.active::after {
     align-items: center;
     text-align: center;
     justify-content: center;
-    
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 10px;
     transition: all 0.3s ease;
     cursor: pointer;
+    background-color: #bc4749;
 }
 .content .content-01:hover {
     transform: translateY(-10px);
@@ -143,6 +143,13 @@ nav ul li a.active::after {
     margin-top: 10px;
     color: #4e4a4a;
     background-color: #f1c0e8;
+    padding: 5px;
+    border-radius: 10px;
+}
+.content .content-01 button {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #1a1919;
     padding: 5px;
     border-radius: 10px;
 }
